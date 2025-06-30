@@ -1,0 +1,313 @@
+@charset "utf-8";
+
+.inner {
+  margin: auto;
+}
+body {
+  width: 100%;
+}
+header {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 44px;
+  background: #ffffffcc;
+}
+.top {
+  width: 1000px;
+  height: 44px;
+}
+.top .logo {
+  float: left;
+}
+.top .nav {
+  float: left;
+}
+.top .nav li {
+  float: left;
+}
+.top .subm {
+  float: left;
+}
+.top .subm p {
+  display: inline-block;
+}
+.top .logo,
+.top .nav li,
+.top .subm p {
+  margin: 0 10px;
+  padding: 0 8px;
+}
+main {
+  padding-top: 44px;
+  width: 1920px;
+  font-size: 17px;
+}
+main h2 {
+  font-size: 56px;
+  font-weight: 600;
+}
+.top_menu a {
+  display: block;
+  width: 1920px;
+  height: 710px;
+  background: url(images/iphone_family.jpg) no-repeat;
+  background-size: 1920px 710px;
+  object-fit: cover;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.top_menu h2 {
+  padding: 35px 0 20px 0;
+}
+.top_menu p:nth-child(2) {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+.top_menu p:nth-child(3) {
+  display: inline-block;
+  width: 116px;
+  height: 46px;
+  line-height: 46px;
+  border-radius: 25px;
+  background: #0071e3;
+  color: #fff;
+  margin-right: 17px;
+}
+.top_menu p:nth-child(4) {
+  display: inline-block;
+  width: 116px;
+  height: 46px;
+  line-height: 46px;
+  border: 1px solid #0071e3;
+  border-radius: 25px;
+}
+.top_menu p:nth-child(4):hover {
+  background: #0071e3;
+  color: #fff;
+}
+.top_menu p:nth-child(5) {
+  margin-top: 20px;
+  font-size: 21px;
+  background: linear-gradient(94deg, #0090f7, #ba62fc, #f2416b, #f55600);
+  background-clip: text;
+  color: transparent;
+}
+.top_menu p:nth-child(6) {
+  font-size: 14px;
+  color: rgb(110, 110, 115);
+}
+.middle_menu a {
+  display: block;
+  width: 1920px;
+  height: 692px;
+  background: url(images/apple_main1.png) no-repeat;
+  background-size: 1920px 692px;
+  object-fit: cover;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.middle_menu h2 {
+  padding-top: 466px;
+}
+.middle_menu p:nth-child(2),
+.bottom_menu p:nth-child(2) {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+.middle_menu p:nth-child(3) {
+  display: inline-block;
+  width: 99px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 25px;
+  color: #fff;
+  background: #0071e3;
+}
+.bottom_menu a {
+  display: block;
+  width: 1920px;
+  height: 692px;
+  background: url(images/apple_watch.jpg) no-repeat;
+  background-size: 1920px 692px;
+  object-fit: fill;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.bottom_menu p:nth-child(3) {
+  display: inline-block;
+  width: 99px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 25px;
+  color: #fff;
+  background: #0071e3;
+}
+.center_m a {
+  float: left;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  width: 945px;
+  height: 580px;
+  text-align: center;
+  font-size: 21px;
+  background-position: center;
+}
+.center_m a h3 {
+  padding-top: 65px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.center_m a p {
+  padding: 12px 0;
+}
+.center_m a p:nth-child(3),
+.center_m a p:nth-child(4) {
+  display: inline-block;
+  font-size: 14px;
+  padding: 7px 15px;
+  background: #0071e3;
+  border-radius: 25px;
+  margin: 0 14px;
+  color: #fff;
+}
+.center_m a p:nth-child(4) {
+  color: #0071e3;
+  background: none;
+  border: 1px solid #0071e3;
+}
+.center_m a p:nth-child(4):hover {
+  background: #0071e3;
+  color: #fff;
+}
+.awatch a {
+  background: url(images/awatch.jpg);
+  background-size: 945px 580px;
+}
+.mbair a {
+  background: url(images/macbook.jpg);
+  background-size: 945px 580px;
+}
+.ipad a {
+  background: url(images/ipad_air.jpg);
+  background-size: 945px 580px;
+}
+.apods a {
+  background: url(images/airpods.jpg);
+  background-position: center;
+  color: #fff;
+  padding-top: 305px;
+}
+.mac a {
+  background: url(images/mac.jpg);
+  background-size: 945px 580px;
+}
+.trade a {
+  background: url(images/trade.jpg);
+  background-size: 945px 580px;
+}
+.bot_slide {
+  position: relative;
+  background: url(images/bot_slide.jpg) no-repeat;
+  background-size: cover;
+  width: 1250px;
+  height: 670px;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 38px;
+}
+.bot_text {
+  position: absolute;
+  left: 70px;
+  bottom: 56px;
+}
+.bot_button {
+  display: inline-block;
+  background: #f5f5f7;
+  color: #000;
+  padding: 15px 22px;
+  border-radius: 25px;
+  font-size: 17px;
+}
+.bot_button:hover {
+  background: #fff;
+}
+.bot_slide p {
+  display: inline-block;
+  padding-left: 17px;
+}
+.bot_slide p > span {
+  font-weight: bold;
+}
+footer {
+  background: #f5f5f7;
+  color: #0000008f;
+  font-size: 12px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.foot {
+  width: 984px;
+}
+.foot_top {
+  padding: 17px 0 21px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.56);
+}
+.foot_top li {
+  padding-bottom: 15px;
+}
+.foot_middle {
+  color: #000000b8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.56);
+}
+.foot_middle > nav > ul {
+  float: left;
+}
+.foot_middle > nav > ul span {
+  font-weight: 600;
+  color: #000000e0;
+}
+.foot_middle li {
+  width: 176px;
+  padding: 14px 0 0;
+}
+.foot_middle p {
+  padding: 37px 0 11px;
+}
+.foot_middle p > a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+.foot_bot .bot_left {
+  padding: 18px 0;
+  float: left;
+  width: 934px;
+}
+.foot_bot .bot_left p,
+li {
+  float: left;
+}
+.bot_left li a,
+.bot_right,
+footer address a {
+  color: #000000b8;
+}
+.foot_bot .bot_left li a {
+  padding: 0 10px;
+}
+.foot_bot .bot_left li ~ li::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  background-color: #000000b8;
+}
+.foot_bot .bot_right {
+  width: 50px;
+  padding: 18px 0;
+  float: right;
+}
+.foot_bot address {
+  padding: 22px 0;
+}
